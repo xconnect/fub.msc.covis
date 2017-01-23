@@ -1,0 +1,22 @@
+Aufgabe 2: Human vs. Computer Vision (3 Punkte)
+
+Wie unterscheiden sich menschliches Auge und eine Kamera? Bitte in Stichpunkten antworten.
+
+ - menschliches Auge besteht aus Zellen, Kamera nicht
+ - beim menschlichen Auge wird der Brennpunkt durch eine Deformierung der Linse verschoben. Bei der Kamera geschieht dies durch eine Verschiebung der Linse.
+ - das Auge repariert sich (Zellschäden) selbst. Es kann aber auch von einer Reihe von Krankheiten angegriffen werden, eine Kamera nicht.
+ - kein blinder Fleck bei Kameras
+ - die Verteilung und Art der Fotorezeptoren im Auge ist nicht gleichmäßig (es gibt Stäbchen eher in der Peripherie, Zapfen eher in der Mitte), bei der Kamera dagegen schon. Die Kamera hat somit auch keinen Bereich schärfsten Sehens.
+ - das Auge passt sich von alleine auf eine Änderung der Helligkeit an, und dies dauert auch mehrere Minuten (unterschiedlich je nach Fotorezeptor-Art). Ältere Kameras tun dies nicht, oder nicht automatisch
+ - Augen haben nur eine kleine Schärfentiefe (depth of field), d.h. sie können nicht Gegenstände in unterschiedlicher Entfernung gleichzeitig scharf sehen
+ - es gibt keine Flüssigkeiten (wie den Glaskörper) in der Kamera
+ - das Auge nimmt den Helligkeitswert einer Szene als den Logarithmus der Lichtintensität dieser Szene wahr
+ - nicht alles, was die Fotorezeptoren (Stäbchen und Zapfen) aufnehmen, wird weitergeleitet. Ein großer Teil der Information wird noch vor dem Gehirn weggefiltert. Bei der Kamera gibt es ein solches Filtersystem nicht.
+
+
+
+Aufgabe 3: das invertierte After-Image (2 Punkte)
+
+Warum nehmen wir nach Betrachtung der Beispielbilder (siehe Vorlesungsfolien) ein invertiertes Nachbild wahr? Die kürzeste, korrekte Erklärung wird prämiert!
+
+Bei lang anhaltendem Licheinfall wird Rhodopsin verbraucht (es kann sich nur bei Dunkelheit wieder regenerieren) und der Rezeptor kann keine Signale mehr weiterleiten. Wenn man also wegschaut, leiten nur die nicht ermüdeten Rezeptoren Signale weiter (die ja ganz andere Farben sehen). 

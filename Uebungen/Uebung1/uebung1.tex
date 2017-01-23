@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\title{Computer Vision\\- \"Ubung 1 -}
+\author{T. Bullmann, J. Cavojska,\\N. Lehmann, S. Scharmacher}
+\date{20.10.2015}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Aufgabe 1}
+
+\subsection{Aufgabe}
+
+Richte Dir eine geeignete Programmierumgebung ein. Ich empfehle Matlab oder Python. L\"ose folgende Toy-Aufgaben:
+\begin{itemize}
+\item \"Offne das Testbild "image.jpg" (im Ressourcen-Bereich) und stelle es in einem Fenster dar. (Abgabe 1.1) 
+\item Extrahiere ein 60 x 60 Pixel großes Unterbild von Koordinate (50,110) und stelle es in einem Fenster dar. (Abgabe 1.2)
+\item Stelle nur den Rotkanal dar. (Abgabe 1.3)
+\item Spiegele das Bild an der x-Achse und dann an der y-Achse (Abgabe 1.4)
+\item Wandle das Bild in ein Grauwertbild um und stelle es invertiert dar (Abgabe 1.5)
+\end{itemize}
+
+\subsection{L\"osung}
+
+Siehe Matlab Datei \glqq uebung1.m\grqq.
+\newpage
+
+\section{Aufgabe 2}
+
+\subsection{Aufgabe}
+
+Wie unterscheiden sich menschliches Auge und eine Kamera? Bitte in Stichpunkten antworten.
+
+\subsection{L\"osung}
+
+\begin{itemize}
+\item menschliches Auge besteht aus Zellen, Kamera nicht
+\item beim menschlichen Auge wird der Brennpunkt durch eine Deformierung der Linse verschoben. Bei der Kamera geschieht dies durch eine Verschiebung der Linse.
+\item das Auge repariert sich (Zellsch\"aden) selbst. Es kann aber auch von einer Reihe von Krankheiten angegriffen werden, eine Kamera nicht.
+\item kein blinder Fleck bei Kameras
+\item die Verteilung und Art der Fotorezeptoren im Auge ist nicht gleichm\"a\ss ig (es gibt St\"abchen eher in der Peripherie, Zapfen eher in der Mitte), bei der Kamera dagegen schon. Die Kamera hat somit auch keinen Bereich sch\"arfsten Sehens.
+\item das Auge passt sich von alleine auf eine \"Anderung der Helligkeit an, und dies dauert auch mehrere Minuten (unterschiedlich je nach Fotorezeptor-Art). \"Altere Kameras tun dies nicht, oder nicht automatisch
+\item Augen haben nur eine kleine Sch\"arfentiefe (depth of field), d.h. sie k\"onnen nicht Gegenst\"ande in unterschiedlicher Entfernung gleichzeitig scharf sehen
+\item es gibt keine Fl\"ussigkeiten (wie den Glask\"orper) in der Kamera
+\item das Auge nimmt den Helligkeitswert einer Szene als den Logarithmus der Lichtintensität dieser Szene wahr
+\item nicht alles, was die Fotorezeptoren (St\"abchen und Zapfen) aufnehmen, wird weitergeleitet. Ein großer Teil der Information wird noch vor dem Gehirn weg gefiltert. Bei der Kamera gibt es ein solches Filtersystem nicht.
+\end{itemize}
+
+\newpage
+
+\section{Aufgabe 3}
+
+\subsection{Aufgabe}
+
+Warum nehmen wir nach Betrachtung der Beispielbilder (siehe Vorlesungsfolien) ein invertiertes Nachbild wahr? Die k\"urzeste, korrekte Erkl\"arung wird pr\"amiert!
+
+\subsection{L\"osung}
+
+Bei lang anhaltendem Licheinfall wird Rhodopsin verbraucht (es kann sich nur bei Dunkelheit wieder regenerieren) und der Rezeptor kann keine Signale mehr weiterleiten. Wenn man also wegschaut, leiten nur die nicht erm\"udeten Rezeptoren Signale weiter (die ja ganz andere Farben sehen). 
+\end{document}

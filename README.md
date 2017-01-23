@@ -1,2 +1,2 @@
-# fub.msc.covis
-Computer Vision
+# Computer Vision
+Computer Vision Repository

@@ -1,0 +1,23 @@
+VL Computer Vision WS 15/16
+
+Übung 1
+
+Aufgabe 1: die ersten Schritte (5 Punkte)
+
+Richte Dir eine geeignete Programmierumgebung ein. Ich empfehle Matlab oder Python. Löse folgende Toy-Aufgaben:
+
+* Öffne das Testbild "image.jpg" und stelle es in einem Fenster dar. (Abgabe 1.1) 
+* Extrahiere ein 60 x 60 Pixel großes Unterbild von Koordinate (50,110) und stelle es in einem Fenster dar. (Abgabe 1.2)
+* Stelle nur den Rotkanal dar. (Abgabe 1.3)
+* Spiegele das Bild an der x-Achse und dann an der y-Achse (Abgabe 1.4)
+* Wandle das Bild in ein Grauwertbild um und stelle es invertiert dar (Abgabe 1.5)
+
+
+Aufgabe 2: Human vs. Computer Vision (3 Punkte)
+
+Wie unterscheiden sich menschliches Auge und eine Kamera? Bitte in Stichpunkten antworten.
+
+
+Aufgabe 3: das invertierte After-Image (2 Punkte)
+
+Warum nehmen wir nach Betrachtung der Beispielbilder (siehe Vorlesungsfolie

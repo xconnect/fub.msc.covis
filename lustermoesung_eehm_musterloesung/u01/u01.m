@@ -1,0 +1,14 @@
+img_ori     = imread('image.jpg');
+img_pru     = img_ori(50:110, 110:170, :);
+img_red     = img_ori(:, :, 1);
+img_fli_x   = img_ori(rows(img_ori):-1:1, :, :);
+img_fli_y   = img_ori(:, columns(img_ori):-1:1, :);
+img_gra     = rgb2gray(img_ori);
+img_gra_inv = uint8(255 - sum(img_ori, 3) / 3);
+imshow(img_ori);
+pause();
+imwrite(img_pru, 'image_pruned.jpg');
+imwrite(img_red, 'image_red.jpg');
+imwrite(img_fli_x, 'image_flip_x.jpg');
+imwrite(img_fli_y, 'image_flip_y.jpg');
+imwrite(img_gra_inv, 'image_gray_inverted.jpg');

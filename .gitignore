@@ -1,0 +1,15 @@
+*.DS_STORE
+*.aux
+*.out
+*.log
+*.synctex.gz
+*Makefile
+*CMakeCache.txt
+*CMakeFiles
+*cmake*
+*.project
+*.cproject
+*.settings*
+*RemoteSystemsTempFiles*
+*.metadata*
+*build
